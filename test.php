@@ -1,5 +1,4 @@
 <?php
-ini_set('max_execution_time', 200);
 header('Content-Type: text/plain');
 require 'javascript-tokenizer.php';
 

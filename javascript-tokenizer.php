@@ -66,7 +66,7 @@ class JavaScript_Tokenizer {
 		return $this->tokens;
 	}
 
-	private function next_token($force_regexp = false) {
+	public function next_token($force_regexp = false) {
 	
 		if ($force_regexp) {
 			return $this->read_regexp();
